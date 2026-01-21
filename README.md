@@ -35,7 +35,7 @@ python extractors/speaker_embedding.py
 ```
 
 - speaker는 학습 때 매우 적은 화자 수(10명)으로 학습했기 때문에 generalization 안됨. git에 있는 data/EVC Speaker/0020_000006.wav 를 speaker wav로 고정하고 test.
-- 
+
 ex)
 ```bash
 /home/Maestro_EVC/data/Deepdub Voice Clone/경도_001_00-00-00_000_00-00-11_564_EN.wav|/home/Maestro_EVC/data/EVC Speaker/0020_000006.wav|/home/Maestro_EVC/data/Original/경도_001_00-00-00_000_00-00-11_564_이쯤되니.wav
